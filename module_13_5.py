@@ -10,7 +10,7 @@ bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
-button = KeyboardButton(text='Расчитать')
+button = KeyboardButton(text='Рассчитать')
 button_2 = KeyboardButton(text="Информация")
 kb.row(button, button_2)
 
